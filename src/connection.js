@@ -1,5 +1,5 @@
 
-const api_url = "http://54.238.255.127/api/v.1.0/";
+const api_url = "https://django-api.link/api/v.1.0/";
 // const api_url = "http://localhost:8080/api/v.1.0/"
 
 // 小説単体系
