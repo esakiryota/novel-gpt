@@ -56,7 +56,7 @@ function Top() {
             width: width_state,
             height: height_state,
             backgroundColor: "rgba(0,0,0,.5)",
-            content:'""',
+            content: `''`,
         }
     }))
 
