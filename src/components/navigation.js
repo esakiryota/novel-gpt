@@ -388,7 +388,7 @@ function Root(props) {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: "bold" }}>
-                    <img src="/title_logo.png" style={{height: 25}}/>レボニア（LevoniA）
+                    <img src="/logo.png" style={{height: 40}}/>
                     </Typography>
                     <Search sx={{ display: { xs: 'none', sm: 'block' } }}>
                         <SearchIconWrapper>

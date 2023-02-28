@@ -66,11 +66,11 @@ function Top() {
                 {
                     !auth &&
                     <>
-                        <br /><Link to={"/login"} style={{ color: "black", textDecoration: "none" }}><Button variant="contained">ログイン</Button></Link>
-                        <br /><Link to={"/register"} style={{ color: "black", textDecoration: "none" }}><Button variant="contained">アカウント作成</Button></Link>
+                        <br /><Link to={"/login"} style={{ color: "black", textDecoration: "none" }}><Button variant="contained" style={{backgroundColor: 'blue'}}>ログイン</Button></Link>
+                        <br /><Link to={"/register"} style={{ color: "black", textDecoration: "none" }}><Button variant="contained"  style={{backgroundColor: 'blue'}}>アカウント作成</Button></Link>
                     </>
                 }
-                <br /><Link to={"/category"} style={{ color: "black", textDecoration: "none" }}><Button variant="contained">AI小説を読む</Button></Link>
+                <br /><Link to={"/category"} style={{ color: "black", textDecoration: "none" }}><Button variant="contained"  style={{backgroundColor: 'blue'}}>AI小説を読む</Button></Link>
             </Typography>
         </TopPageView>
     )
