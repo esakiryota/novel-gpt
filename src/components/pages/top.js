@@ -16,6 +16,7 @@ import NovelGridList from '../parts/grid_novels'
 import { textAlign } from '@mui/system';
 import { styled, alpha } from '@mui/material/styles';
 import { getAuth } from '../../helper'
+import levonia from '../images/top.jpeg'
 
 export async function loader() {
     const { auth, user } = await getAuth()
@@ -42,7 +43,7 @@ function Top() {
     }, [])
 
     const TopPageView = styled(Paper)(({ theme }) => ({
-        backgroundImage: `url(${process.env.PUBLIC_URL}/top.jpeg)`,
+        backgroundImage: `url(${levonia})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         margin: -30,
