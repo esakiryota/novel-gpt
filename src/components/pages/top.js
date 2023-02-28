@@ -43,7 +43,7 @@ function Top() {
     }, [])
 
     const TopPageView = styled(Paper)(({ theme }) => ({
-        backgroundImage: `url(${process.env.PUBLIC_URL + '/top.jpeg'})`,
+        backgroundImage: `url(${process.env.PUBLIC_URL + '/levonia.png'})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         margin: -30,
